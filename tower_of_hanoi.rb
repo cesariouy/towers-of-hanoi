@@ -4,7 +4,7 @@ module TowerHanoi
 
     valid_ans = false
     until valid_ans do
-      puts "How many discs would you like? (1-99)"
+      puts "How many discs would you like to play with? (1-99)"
       num_of_discs = gets.chomp.to_i
       if (num_of_discs > 0) && (num_of_discs < 100)
         valid_ans = true
